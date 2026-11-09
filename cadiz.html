@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cádiz, luz junto al Atlántico</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.65;
+      color: #263746;
+      background: #f2f7f8;
+    }
+    header {
+      padding: 52px 20px;
+      text-align: center;
+      color: white;
+      background: linear-gradient(135deg, #075b78, #20a6b5);
+    }
+    header h1 { margin: 0 0 10px; font-size: clamp(2rem, 6vw, 3.4rem); }
+    header p { margin: 0; font-size: 1.1rem; }
+    main { max-width: 900px; margin: 32px auto; padding: 0 18px; }
+    section {
+      margin: 24px 0;
+      padding: 24px;
+      background: white;
+      border-radius: 14px;
+      box-shadow: 0 4px 18px rgba(0,0,0,.07);
+    }
+    h2 { margin-top: 0; color: #08718a; }
+    .photo {
+      display: block;
+      width: 100%;
+      max-height: 470px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
+    .video {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      border-radius: 10px;
+      background: #222;
+    }
+    .video iframe { width: 100%; height: 100%; border: 0; }
+    footer {
+      padding: 20px;
+      text-align: center;
+      color: white;
+      background: #263746;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Cádiz, luz junto al Atlántico</h1>
+    <p>Historia, playas y encanto en una de las ciudades más antiguas de Europa</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Una ciudad abierta al mar</h2>
+      <p>
+        Cádiz es una ciudad marcada por el océano Atlántico, sus playas y una
+        historia que se remonta a la Antigüedad. Sus calles estrechas, sus plazas
+        llenas de vida y sus barrios tradicionales invitan a descubrirla sin
+        prisas. Entre sus lugares más conocidos destacan la Catedral, el barrio
+        de La Viña, el Gran Teatro Falla y el paseo marítimo de la playa de la
+        Caleta. Su ambiente, su gastronomía y su famoso carnaval forman parte
+        de una identidad única.
+      </p>
+    </section>
+
+    <section>
+      <h2>La Caleta, una imagen de Cádiz</h2>
+      <img
+        class="photo"
+        src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?auto=format&fit=crop&w=1400&q=85"
+        alt="Mar y costa bañados por la luz del sol"
+      >
+      <p>
+        La playa de La Caleta, situada entre los castillos de San Sebastián y
+        Santa Catalina, es uno de los rincones más queridos por los gaditanos.
+        Sus atardeceres ofrecen una de las estampas más reconocibles de la ciudad.
+      </p>
+    </section>
+
+    <section>
+      <h2>Descubre Cádiz en vídeo</h2>
+      <p>Un recorrido audiovisual para acercarse a sus paisajes, monumentos y ambiente:</p>
+      <div class="video">
+        <iframe
+          src="https://www.youtube.com/embed?listType=search&list=Cádiz%20ciudad%20turismo"
+          title="Vídeos sobre la ciudad de Cádiz"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+      <p><small>El vídeo se carga desde YouTube y requiere conexión a Internet.</small></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Cádiz: historia, mar y vida en cada rincón.</p>
+  </footer>
+</body>
+</html>
